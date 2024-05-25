@@ -7,6 +7,7 @@ DailyTask is a robust ToDo application developed using HTML, CSS, and JavaScript
 ## Features
 
 - **Add Tasks:** Quickly add tasks with a title and description.
+- **View a specific Task:** View a task by ID.
 - **Update Tasks:** Edit the title and description of existing tasks.
 - **View Tasks:** View all your tasks.
 - **Complete Tasks:** Mark tasks as completed.
