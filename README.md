@@ -2,6 +2,8 @@
 
 DailyTask is a robust ToDo application developed using HTML, CSS, and JavaScript for the frontend. The backend leverages AWS services for a serverless architecture, including AWS S3 for hosting static content, AWS DynamoDB for storing tasks, AWS Lambda for function execution, and AWS API Gateway for managing endpoints and connecting Lambda functions with the DynamoDB table.
 
+![Landing Page](showtask.png)
+
 ## Features
 
 - **Add Tasks:** Quickly add tasks with a title and description.
@@ -20,6 +22,8 @@ DailyTask is a robust ToDo application developed using HTML, CSS, and JavaScript
   - **AWS DynamoDB:** Stores tasks and their characteristics.
   - **AWS Lambda:** Executes the application’s functions using Python.
   - **AWS API Gateway:** Manages the endpoints and connects Lambda functions with the DynamoDB table.
+    
+![Landing Page](fullpage.png)
 
 ## Endpoints
 
