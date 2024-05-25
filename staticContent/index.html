@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DailyTask</title>
+    <link rel="stylesheet" href="https://todoapp-imad.s3.amazonaws.com/index.css" />
+</head>
+<body>
+    <div id="app">
+        <h1>DailyTask</h1>
+        <div class="input-container">
+            <input type="text" id="new-todo" placeholder="Note your task ToDo here!" />
+            <button onclick="addTodo()">Add</button>
+        </div>
+        <div class="input-container">
+            <input type="text" id="todo-id" placeholder="Enter Task ID" />
+            <button onclick="getTodo()">Show Task</button>
+        </div>
+        <div id = "gotten-item" style="display: none">
+            <p><strong>ID:</strong> <span id="todo-id-display"></span></p>
+            <p><strong>Name:</strong> <span id="todo-name-display"></span></p>
+            <p><strong>Description:</strong> <span id="todo-description-display"></span></p>
+            <p><strong>Status:</strong> <span id="todo-status-display"></span></p>
+            <div id="update-name-button-container"></div>
+            <div id="update-description-button-container"></div>
+            <div id="update-status-button-container"></div>
+        </div>
+        <h2>List Of Tasks</h2>
+        <table id="table" style="display: none">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Status</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="todo-list"></tbody>
+        </table>
+        <button id="showHideButton"  onclick="showAllTodos()">Show Tasks</button>
+        <button onclick="hideAllTodos()">Hide Tasks</button>
+    </div>
+    <script src="https://todoapp-imad.s3.amazonaws.com/script.js"></script>
+</body>
+</html>
